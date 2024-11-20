@@ -106,7 +106,7 @@ class DailySchedule(models.Model):
     """ORM class for daily_schedule table from EnergyADE.
     """
     id = models.AutoField(primary_key=True, db_column="id")
-    daytype = models.CharField(1000, blank=True, null=True, db_column="daytype")
+    daytype = models.CharField(max_length=1000, blank=True, null=True, db_column="daytype")
     periodofyear_dailyschedul_id = models.ForeignKey(NgPeriodOfYear, on_delete=models.CASCADE, blank=True, null=True, db_column="periodofyear_dailyschedul_id")
     schedule_id = models.ForeignKey(TimeSeries, db_column="schedule_id", on_delete=models.CASCADE)
 
