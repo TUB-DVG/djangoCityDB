@@ -19,21 +19,9 @@ This application is developed by `DVG`, if you have any questions don't hesitate
 contact [us](mailto:info@dvg.tu-berlin.de). The goal is to publish
 it as open-source software.
 
-## Install python package `django-citydb` and its dependencies in your project 
-
-To install the `django-citydb` package itself do the following:
-
-- Clone this repository into your desired folder:
-
-        $ git clone [SSH-Key/Https]
 
 
-- Use pip to install the local copy of `django-citydb` (the path should point to the folder that contains this `README`):
-
-        $ pip install -e [Path/to/your/django-citydb/Clone]
-
-
-## Install Install python package `django-citydb` as a part of vdistrict
+## Install Install python package `django-citydb` as a part of vdistrict / your project
 
 To install the `django-citydb` package itself do the following:
 
